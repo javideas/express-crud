@@ -1,11 +1,10 @@
 // Users CRUD
-const { findById } = require('../models/users.model');
+
 const User = require('../models/users.model');
 // list users
 module.exports.list = (req, res) => {
     User.find()
         .then((users) => {
-            // return res.json(users);
             res.render("users/list", {
                 title: 'Welcome to Users list',
                 users

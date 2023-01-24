@@ -1,5 +1,5 @@
 <h1>Express CRUD project</h1>
-Hi! Welcome to step 2 of Express CRUD, here you can find the mind mapping about this branch/step.
+Hi! Welcome to step 3 of Express CRUD, here you can find the mind mapping about this branch/step.
 
 You can inspect <a href="https://docs.google.com/drawings/d/1N77Ki6SlEqW4jVjTX5CoNpGwuTts_OVIzml-LlnTEyM/edit?usp=sharing">this diagram here in detail (higher resolution)</a> or to click in the next image to open it.
 

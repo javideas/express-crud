@@ -5,7 +5,7 @@ You can inspect <a href="https://docs.google.com/drawings/d/1b9lUdwNBt1LtKEkkRXB
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTopsoLbtrRQpLXw-Pnw9Q_sWQF-YK2DgpTCkyyYtHcPL1JT9VZd7D5YWQz8v0caxUsyqqQxAJQh_4w/pub?w=5700&amp;h=2580">
 
-Git Notes:
+Git Notes:<br>
 -Create a branch for the first chapter: <em>git branch chapter1</em>.<br>
 -Switch to the new branch: <em>git checkout chapter1.</em><br>
 -Commit the changes: <em>git commit -am "Added content for chapter 1".</em><br>

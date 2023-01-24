@@ -2,7 +2,7 @@
 Hi!
 I started this repository adding different branches for every step of making an express crud project.<br>
 You can select them here:<br>
-<img href="https://raw.githubusercontent.com/javideas/express-crud/main/GuidBranches.jpg"><br>
+<img src="https://raw.githubusercontent.com/javideas/express-crud/main/GuidBranches.jpg"><br>
 
 In every step/branch there is included a visual diagram, such as: <br>
 

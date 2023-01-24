@@ -12,6 +12,9 @@ hbs.registerPartials(__dirname + "/views/partials");
 /**  Configure static files */
 app.use(express.static("public"));
 
+/** Configure POST body extraction */
+app.use(express.urlencoded({ extended: true}));
+
 const router = require("./config/routes.config");
 app.use(router);
 

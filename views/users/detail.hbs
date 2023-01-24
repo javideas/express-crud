@@ -1,3 +1,8 @@
 <h1>#{{user.id}} - {{user.name}}</h1>
 
 <a href="/users">Go back</a>
+
+<div class="pt-5">
+    <form method="POST" action="/users/{{user.id}}/delete"></form>
+    <button class="btn btn-danger">Delete</button>
+</div>

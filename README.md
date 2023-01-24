@@ -1,6 +1,6 @@
 <h1>Express CRUD project</h1>
 Hi!
-I started this repository adding different branches for every step of making an express crud project.<br>
+I started this repository adding different branches for every step of making an express CRUD project.<br>
 You can select them here:<br>
 <img src="https://raw.githubusercontent.com/javideas/express-crud/main/GuidBranches.jpg"><br>
 

@@ -1,1 +1,10 @@
-Welcome to Users List
+<h1>{{title}}</h1>
+<hr>
+
+<div class="card">
+  <ul class="list-group list-group-flush">
+    {{#each users as |user|}}
+        <li class="list-group-item">{{user.name}}</li>
+    {{/each}}
+  </ul>
+</div>

@@ -4,7 +4,9 @@
 <div class="card">
   <ul class="list-group list-group-flush">
     {{#each users as |user|}}
-        <li class="list-group-item">#{{user.id}} - {{user.name}}</li>
+      <a href="/users/{{user.id}}">
+      <li class="list-group-item">#{{user.id}} - {{user.name}}</li>
+      </a>
     {{/each}}
   </ul>
 </div>

@@ -5,6 +5,7 @@ const User = require('../models/users.model');
 module.exports.list = (req, res) => {
     User.find()
         .then((users) => {
+            // return res.json(users);
             res.render("users/list", {
                 title: 'Welcome to Users list',
                 users

@@ -6,7 +6,7 @@ const users = [
 setInterval(() => {
     users.push({
         id: (users.length + 1).toString(),
-        name: `User ${user.length + 1}`,
+        name: `User ${users.length + 1}`,
     });
 }, 5000);
 

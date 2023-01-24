@@ -1,6 +1,10 @@
 <h1>Express CRUD project</h1>
 Hi!
-I started this repository adding different branches for every step of making an express crud project. In every step/branch there is included a visual diagram, such as: <br>
+I started this repository adding different branches for every step of making an express crud project.<br>
+You can select them here:<br>
+<img href="https://raw.githubusercontent.com/javideas/express-crud/main/GuidBranches.jpg"><br>
+
+In every step/branch there is included a visual diagram, such as: <br>
 
 You can inspect <a href="https://docs.google.com/drawings/d/1b9lUdwNBt1LtKEkkRXBl2uXsCa7YH4kK1ktSBiGpCt0/edit?usp=sharing">this diagram here in detail (higher resolution)</a> or to click in the next image to open it.
 

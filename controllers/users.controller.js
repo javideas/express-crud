@@ -1,4 +1,5 @@
 // Users CRUD
+const { findById } = require('../models/users.model');
 const User = require('../models/users.model');
 // list users
 module.exports.list = (req, res) => {
@@ -16,7 +17,13 @@ module.exports.list = (req, res) => {
 };
 
 // user detail
-module.exports.detail = (req, res) => {};
+module.exports.detail = (req, res) => {
+    User.findById(req.params.id)
+        .then((user) => {
+            res.render("users/detail", { user })
+        })
+        .catch(() => {});
+};
 
 // user create
 module.exports.create = (req, res) => {};

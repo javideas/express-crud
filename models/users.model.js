@@ -1,9 +1,9 @@
 const users = [
-    { ide: "1", name: "Julio"},
-    { ide: "D", name: "Carlos"},
+    { id: "1", name: "Julio"},
+    { id: "2", name: "Carlos"},
 ];
 
-setInterval(() => {
+setInterval(() => { // temp: autocreates users
     users.push({
         id: (users.length + 1).toString(),
         name: `User ${users.length + 1}`,
